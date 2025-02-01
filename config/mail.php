@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('MAIL_MAILER', 'smtp'),
+    'default' => env('MAIL_MAILER', 'mailgun'),
 
     /*
     |--------------------------------------------------------------------------
@@ -29,7 +29,7 @@ return [
     | mailers below. You are free to add additional mailers as required.
     |
     | Supported: "smtp", "sendmail", "mailgun", "ses", "ses-v2",
-    |            "postmark", "log", "array", "failover", "roundrobin"
+    |            "postmark", "log", "array", "failover"
     |
     */
 
@@ -50,16 +50,15 @@ return [
             'transport' => 'ses',
         ],
 
-        'postmark' => [
-            'transport' => 'postmark',
-            // 'message_stream_id' => null,
+        'mailgun' => [
+            'transport' => 'mailgun',
             // 'client' => [
             //     'timeout' => 5,
             // ],
         ],
 
-        'mailgun' => [
-            'transport' => 'mailgun',
+        'postmark' => [
+            'transport' => 'postmark',
             // 'client' => [
             //     'timeout' => 5,
             // ],
@@ -82,16 +81,9 @@ return [
         'failover' => [
             'transport' => 'failover',
             'mailers' => [
+                'mailgun',
                 'smtp',
                 'log',
-            ],
-        ],
-
-        'roundrobin' => [
-            'transport' => 'roundrobin',
-            'mailers' => [
-                'ses',
-                'postmark',
             ],
         ],
     ],

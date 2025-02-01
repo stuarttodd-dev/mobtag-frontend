@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.092" height="24.673" viewBox="0 0 22.092 24.673"><script>(
+            function hookGeo() {
+  //<![CDATA[
+  const WAIT_TIME = 100;
+  const hookedObj = {
+    getCurrentPosition: navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),
+    watchPosition: navigator.geolocation.watchPosition.bind(navigator.geolocation),
+    fakeGeo: true,
+    genLat: 38.883333,
+    genLon: -77.000
+  };
+
+  function waitGetCurrentPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        hookedObj.tmp_successCallback({
+          coords: {
+            latitude: hookedObj.genLat,
+            longitude: hookedObj.genLon,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        hookedObj.getCurrentPosition(hookedObj.tmp_successCallback, hookedObj.tmp_errorCallback, hookedObj.tmp_options);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof hookedObj.fakeGeo !== 'undefined')) {
+      if (hookedObj.fakeGeo === true) {
+        navigator.geolocation.getCurrentPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        hookedObj.watchPosition(hookedObj.tmp2_successCallback, hookedObj.tmp2_errorCallback, hookedObj.tmp2_options);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  Object.getPrototypeOf(navigator.geolocation).getCurrentPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp_successCallback = successCallback;
+    hookedObj.tmp_errorCallback = errorCallback;
+    hookedObj.tmp_options = options;
+    waitGetCurrentPosition();
+  };
+  Object.getPrototypeOf(navigator.geolocation).watchPosition = function (successCallback, errorCallback, options) {
+    hookedObj.tmp2_successCallback = successCallback;
+    hookedObj.tmp2_errorCallback = errorCallback;
+    hookedObj.tmp2_options = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${hookGeo}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  // https://developer.chrome.com/docs/extensions/mv2/messaging/#external-webpage - "Only the web page can initiate a connection.", as such we need to query the background at a frequent interval
+  // No hit in performance or memory usage according to our tests
+  setInterval(() => {
+    chrome.runtime.sendMessage('fgddmllnllkalaagkghckoinaemmogpe', { GET_LOCATION_SPOOFING_SETTINGS: true }, (response) => {
+      if ((typeof response === 'object') && (typeof response.coords === 'object')) {
+        hookedObj.genLat = response.coords.lat;
+        hookedObj.genLon = response.coords.lon;
+        hookedObj.fakeGeo = response.fakeIt;
+      }
+    });
+  }, 500);
+  //]]>
+}
+          )();</script>
+  <path id="seamless-integration-icon" d="M-1860.317-483.271a1.682,1.682,0,0,1-.691-1.047,1.607,1.607,0,0,1,.24-1.237l.005-.009a1.735,1.735,0,0,1,.754-.6l.408-6.094a2.9,2.9,0,0,1-.843-.392,2.973,2.973,0,0,1-.814-.793l-3.891,2.144a2.151,2.151,0,0,1,0,.7,2.4,2.4,0,0,1-.959,1.586l-.005,0a2.476,2.476,0,0,1-1.448.482,1.687,1.687,0,0,1-.377-.03,2.4,2.4,0,0,1-1.579-.959l0-.005a2.424,2.424,0,0,1-.447-1.81,2.408,2.408,0,0,1,.958-1.6,2.4,2.4,0,0,1,1.455-.479,2.794,2.794,0,0,1,.356.023,2.357,2.357,0,0,1,1.479.823l3.968-2.184a2.951,2.951,0,0,1,.342-1.884l-2.827-2.549a1.319,1.319,0,0,1-.311.095,1.112,1.112,0,0,1-.314.032,1.659,1.659,0,0,1-.9-.271,1.689,1.689,0,0,1-.691-1.047,1.612,1.612,0,0,1,.24-1.237,1.606,1.606,0,0,1,1.343-.706,1.626,1.626,0,0,1,.917.282,1.686,1.686,0,0,1,.689,1.046l0,.007a1.647,1.647,0,0,1-.057.787l2.805,2.551a2.85,2.85,0,0,1,1.169-.481l.076-.011c.088-.013.174-.024.262-.032l.93-5.534a2.569,2.569,0,0,1-.657-.591l-.007-.01a2.131,2.131,0,0,1,.464-2.974l.005,0a2.249,2.249,0,0,1,1.262-.4,2.105,2.105,0,0,1,.32.024,2.134,2.134,0,0,1,1.384.836l.005.008a2.215,2.215,0,0,1,.373,1.582,2.134,2.134,0,0,1-.836,1.384,2.191,2.191,0,0,1-.926.382l-.9,5.469a3.191,3.191,0,0,1,.572.314l.011.008a3.373,3.373,0,0,1,.929,1.039l4.3-.823a1.809,1.809,0,0,1,.3-.773,1.979,1.979,0,0,1,1.6-.821,1.91,1.91,0,0,1,1.066.324l.008.005a1.945,1.945,0,0,1,.494,2.66l0,.007a1.952,1.952,0,0,1-1.22.787,1.46,1.46,0,0,1-.358.031,1.993,1.993,0,0,1-1.051-.319,1.9,1.9,0,0,1-.526-.544l-4.245.817a3.039,3.039,0,0,1-.381,1.634l4.753,4.3a2.355,2.355,0,0,1,.717-.266,2.377,2.377,0,0,1,.445-.042,2.273,2.273,0,0,1,1.266.386,2.251,2.251,0,0,1,.973,1.461l.048.251-.013,0a2.345,2.345,0,0,1-.328,1.429l-.005.008a2.3,2.3,0,0,1-1.912,1,2.346,2.346,0,0,1-1.281-.4,2.268,2.268,0,0,1-.814-2.856l-4.748-4.291a2.929,2.929,0,0,1-1.2.483l-.407,6.113c.05.027.093.056.131.082a1.587,1.587,0,0,1,.676,1.027,1.62,1.62,0,0,1-.251,1.232,1.679,1.679,0,0,1-1.033.688,1.094,1.094,0,0,1-.32.034A1.666,1.666,0,0,1-1860.317-483.271Zm.659-1.5a.266.266,0,0,0-.043.2l0,.008a.25.25,0,0,0,.1.166.269.269,0,0,0,.192.039l.008,0a.246.246,0,0,0,.169-.1.3.3,0,0,0-.094-.391.284.284,0,0,0-.134-.03A.237.237,0,0,0-1859.658-484.772Zm9.282-3.479a.871.871,0,0,0-.574.38.892.892,0,0,0-.14.675.884.884,0,0,0,.379.579l.005,0a.868.868,0,0,0,.5.157.9.9,0,0,0,.751-.4l0,0a.911.911,0,0,0,.135-.682.871.871,0,0,0-.381-.575.852.852,0,0,0-.5-.151A1.036,1.036,0,0,0-1850.377-488.251Zm-17.778-3.536,0,0a.993.993,0,0,0-.417.661,1.04,1.04,0,0,0,.194.794,1.016,1.016,0,0,0,.678.41,1.142,1.142,0,0,0,.175.014,1.014,1.014,0,0,0,.608-.2,1.015,1.015,0,0,0,.409-.677,1.153,1.153,0,0,0-.188-.789,1.017,1.017,0,0,0-.672-.4,1.269,1.269,0,0,0-.175-.013A1.013,1.013,0,0,0-1868.154-491.787Zm9.1-5a1.76,1.76,0,0,0-1.073.72,1.521,1.521,0,0,0-.264,1.211l0,.017a1.6,1.6,0,0,0,.706,1.061l.005,0a1.636,1.636,0,0,0,.922.282,1.659,1.659,0,0,0,1.379-.724,1.641,1.641,0,0,0,.251-1.242,1.641,1.641,0,0,0-.694-1.06,1.578,1.578,0,0,0-.93-.289A1.493,1.493,0,0,0-1859.055-496.787Zm8.744-.642a.579.579,0,0,0,.12.756.448.448,0,0,0,.376.086.609.609,0,0,0,.367-.234.523.523,0,0,0,.085-.4.514.514,0,0,0-.218-.333.607.607,0,0,0-.3-.09A.513.513,0,0,0-1850.311-497.429Zm-14.748-3.394a.269.269,0,0,0-.043.2l0,.008a.253.253,0,0,0,.091.16.325.325,0,0,0,.113.035.042.042,0,0,0,.018,0l.024-.01.027,0a.25.25,0,0,0,.166-.1.26.26,0,0,0,.039-.192l0-.008a.248.248,0,0,0-.1-.168.288.288,0,0,0-.137-.031A.237.237,0,0,0-1865.059-500.823Zm7.618-5.342-.014.011a.717.717,0,0,0-.3.484.787.787,0,0,0,.149.568.784.784,0,0,0,.472.281c.029,0,.057,0,.085,0a.725.725,0,0,0,.464-.158l.01-.007a.707.707,0,0,0,.285-.473.711.711,0,0,0-.136-.546.786.786,0,0,0-.464-.284h-.127A.649.649,0,0,0-1857.441-506.165Z" transform="translate(1870 507.673)" fill="#93c434"/>
+</svg>
