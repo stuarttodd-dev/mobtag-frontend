@@ -4,7 +4,7 @@
     <div id="top"></div>
     @include('components/page-header', [
         'page' => $page,
-        'menu' => ['route' => route('services'), 'title' => 'Services']
+        'menu' => ['route' => route('features'), 'title' => 'Features']
     ])
 
     <section class="section">
@@ -29,7 +29,7 @@
                     <h3 class="h2 text-white">{{ $service->short_desc }}</h3>
                 </div>
                 <div class="col-md-4 text-center text-md-end">
-                    <a class="btn btn-light" href="{{ route('contact-us') }}"">Let's Work Together</a>
+                    <a class="btn btn-light" href="{{ route('contact-us') }}">Let's Work Together</a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,7 @@
                         <h5 class="mb-2">{{ $row->title }}</h5>
                         <p>{{ $row->short_desc }}</p>
                         @if($service->id !== $row->id)
-                        <a class="link-effect z-index-1" href="{{ route('service', ['id' => $row->id, 'slug' => $row->slug]) }}">Read More</a>
+                        <a class="link-effect z-index-1" href="{{ route('feature', ['id' => $row->id, 'slug' => $row->slug]) }}">Read More</a>
                         @else
                             <a class="link-effect z-index-1" href="#top">Read More</a>
                         @endif

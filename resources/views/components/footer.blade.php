@@ -26,7 +26,7 @@
                         <li><a href="{{ route('why-choose-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Why Choose Us?</a></li>
                         <li><a href="{{ route('features') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Services</a></li>
                         <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Blog</a></li>
-                        <li><a href="{{ route('contact-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">GET A QUOTE</a></li>
+                        <li><a href="https://assets.mobtag.io" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">SIGN UP</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6 col-lg-3">

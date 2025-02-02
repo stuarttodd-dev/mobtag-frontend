@@ -23,17 +23,17 @@ class SiteController extends Controller
             'menuProjects' => Project::all()->sortBy('position')->take(10),
             'menuServices' => Service::all()->sortBy('position')->take(10),
             'menuArticles' => Article::all()->sortBy('position')->take(10),
-            'pageTitle' => 'INNOVATION STUDIO',
-            'shortDesc' => 'Half Shell Studios is a software house specialising in delivering clean, tested, robust and high-quality web and mobile app solutions. Our team of skilled developers craft custom software solutions tailored to your business needs.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'shortDesc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ];
     }
 
     public function home()
     {
         $data = [
-            'metaTitle' => 'Half Shell Studios: Innovative Software Solutions for Web and Mobile Development',
-            'metaKeywords' => 'software development, web development, mobile app development, technology solutions, custom software, software house',
-            'metaDescrpition' => 'Half Shell Studios is a leading software house specialising in web and mobile app development. Our team of skilled developers crafts custom software solutions tailored to your business needs. Explore our featured projects and discover the innovation behind Half Shell Studios.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         ];
 
         $this->viewData = array_merge($this->viewData, $data);
@@ -46,9 +46,9 @@ class SiteController extends Controller
         $data = [
             'projects' => Project::all(),
             'pageTitle' => 'Projects',
-            'metaTitle' => 'Half Shell Studios: Bespoke Web Development Projects',
-            'metaKeywords' => 'bespoke web development, custom software, software house projects, web development portfolio',
-            'metaDescription' => 'Explore our portfolio of bespoke web development projects at Half Shell Studios. We specialise in crafting custom software solutions, delivering innovative and tailored web applications for businesses of all sizes.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'pages' => 'Our Projects',
         ];
 
@@ -75,9 +75,9 @@ class SiteController extends Controller
     public function about()
     {
         $data = [
-            'metaTitle' => 'About Us - Half Shell Studios',
-            'metaKeywords' => 'software development, Half Shell Studios, technology, innovation, development studio',
-            'metaDescription' => 'Discover the story of Half Shell Studios, a leading software development house specializing in innovative and cutting-edge solutions.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'About Us',
         ];
 
@@ -89,9 +89,9 @@ class SiteController extends Controller
     public function why_choose_us()
     {
         $data = [
-            'metaTitle' => 'Why Choose Us - Half Shell Studios',
-            'metaKeywords' => 'software development, Half Shell Studios, technology, innovation, development studio',
-            'metaDescription' => 'Discover the story of Half Shell Studios, a leading software development house specializing in innovative and cutting-edge solutions.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'Why Choose Us?',
         ];
 
@@ -120,11 +120,11 @@ class SiteController extends Controller
     {
         $data = [
             'services' => Service::all(),
-            'pageTitle' => 'Services',
-            'metaTitle' => 'Half Shell Studios: Development Services',
-            'metaKeywords' => 'web development, bespoke solutions, Laravel, Composer, PHP',
-            'metaDescription' => 'Explore our development services, leveraging powerful frameworks like Laravel and open source package repos like Composer for efficient and standards-compliant solutions.',
-            'page' => 'Our Services',
+            'pageTitle' => 'Features',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'page' => 'Our Features',
         ];
 
         $this->viewData = array_merge($this->viewData, $data);
@@ -151,11 +151,11 @@ class SiteController extends Controller
     {
         $data = [
             'articles' => Article::where('active', true)->get()->sortBy('position'),
-            'pageTitle' => 'Blog',
-            'metaTitle' => 'Half Shell Studios: Bespoke Web Development Blog',
-            'metaKeywords' => 'bespoke web development, custom software, software house projects, web development portfolio',
-            'metaDescription' => 'Explore our portfolio of bespoke web development projects at Half Shell Studios. We specialise in crafting custom software solutions, delivering innovative and tailored web applications for businesses of all sizes.',
-            'page' => 'Blog',
+            'pageTitle' => 'Case Studies',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'page' => 'Case Studies',
         ];
 
         $this->viewData = array_merge($this->viewData, $data);
@@ -182,9 +182,9 @@ class SiteController extends Controller
     public function privacy_policy()
     {
         $data = [
-            'metaTitle' => 'Privacy Policy - Half Shell Studios',
-            'metaKeywords' => 'privacy policy, data protection, personal information, user privacy, data security',
-            'metaDescription' => 'Read about how Half Shell Studios handles your personal information and ensures the privacy and security of your data.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'Privacy Policy',
         ];
 
@@ -196,9 +196,9 @@ class SiteController extends Controller
     public function terms_and_conditions()
     {
         $data = [
-            'metaTitle' => 'Terms and Conditions - Half Shell Studios',
-            'metaKeywords' => 'terms and conditions, legal agreement, terms of service, user agreement, website usage',
-            'metaDescription' => 'Explore the terms and conditions of using Half Shell Studios\' website, outlining the rules and guidelines for visitors.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'Our Terms',
         ];
 
@@ -210,9 +210,9 @@ class SiteController extends Controller
     public function cookie_policy()
     {
         $data = [
-            'metaTitle' => 'Cookie Policy - Half Shell Studios',
-            'metaKeywords' => 'cookies, cookie policy, privacy, online tracking, web analytics, data protection',
-            'metaDescription' => 'Learn about the cookie policy at Half Shell Studios and how we use cookies to enhance your browsing experience.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'Cookie Policy',
         ];
 
@@ -224,9 +224,9 @@ class SiteController extends Controller
     public function contact()
     {
         $data = [
-            'metaTitle' => 'Contact Us - Half Shell Studios',
-            'metaKeywords' => 'software development, Half Shell Studios, technology, innovation, development studio',
-            'metaDescription' => 'Contact Half Shell Studios, a leading software development house specializing in innovative and cutting-edge solutions.',
+            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
+            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
+            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             'page' => 'Contact Us'
         ];
 
