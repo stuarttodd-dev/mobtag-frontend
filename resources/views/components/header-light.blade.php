@@ -33,7 +33,7 @@
             </div>
             <div class="nav flex-nowrap align-items-center">
                 <div class="nav-item d-none d-xl-block">
-                    <a href="https://assets.mobtag.io" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
+                    <a href="https://assets.mobtag.io/register" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
                 </div>
             </div>
         </div>

@@ -132,7 +132,7 @@ class SiteController extends Controller
         return view('services', $this->viewData);
     }
 
-    public function article(Article $id, string $slug)
+    public function case_study(Article $id, string $slug)
     {
         $data = [
             'article' => $id,

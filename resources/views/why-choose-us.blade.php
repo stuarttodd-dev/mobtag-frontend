@@ -7,9 +7,9 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h3 class="display-6 mb-3">We are committed to solving real business problems</h3>
+                    <h3 class="display-6 mb-3">Lorem ipsum dolor sit amet</h3>
                     <div class="w-80px bg-primary h-2px mx-auto mb-4"></div>
-                    <p class="lead">With integrity, transparency, empathy, excellence and a focus on long-term success.</p>
+                    <p class="lead">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
             <div class="row pt-6">
@@ -19,8 +19,8 @@
                             <i class="bi bi-briefcase"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Identify</h6>
-                            <p class="m-0">We collaborate with you to identify your business’s core challenges and design tailored strategies that drive tangible results and long-term success.</p>
+                            <h6>Nulla facilisi</h6>
+                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                             <i class="bi bi-columns"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Solve</h6>
-                            <p class="m-0">We design and develop mobile and web applications that effectively solve your problems, streamline processes, and contribute to your company’s overall success and growth.</p>
+                            <h6>Aliquam hendrerit</h6>
+                            <p class="m-0">Proin fringilla nunc vel sollicitudin. Curabitur varius ex in felis efficitur volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@
                             <i class="bi bi-command"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Support</h6>
-                            <p class="m-0">Our work doesn’t stop at delivery. We provide continuous support and maintenance to ensure that your solutions continue to meet the evolving needs of your business.</p>
+                            <h6>Vestibulum ante</h6>
+                            <p class="m-0">Sed dignissim sapien nec ante convallis, non venenatis magna placerat.</p>
                         </div>
                     </div>
                 </div>
@@ -54,41 +54,41 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step1.png') }}" title="Kick-off Meeting" alt="Kick-off Meeting">
+                    <img src="{{ asset('static/img/step1.png') }}" title="Phase One" alt="Phase One">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 ps-xl-10">
-                    <h3 class="h1">01. Kick-off Meeting</h3>
-                    <p>We start with a collaborative discussion to understand your vision, goals, and expectations. This ensures we’re aligned from the outset, setting a solid foundation for success.</p>
+                    <h3 class="h1">01. Phase One</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
             <div class="row justify-content-center align-items-center flex-row-reverse">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step2.png') }}" title="Design" alt="Design">
+                    <img src="{{ asset('static/img/step2.png') }}" title="Phase Two" alt="Phase Two">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 pe-xl-10">
-                    <h3 class="h1">02. Design</h3>
-                    <p>Our design phase focuses on creating user-friendly, visually appealing layouts that capture your brand’s identity while ensuring an intuitive experience for your users.</p>
+                    <h3 class="h1">02. Phase Two</h3>
+                    <p>Maecenas malesuada nibh id dui condimentum, ut faucibus lorem iaculis.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step3.png') }}" title="Development" alt="Development">
+                    <img src="{{ asset('static/img/step3.png') }}" title="Phase Three" alt="Phase Three">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 ps-xl-10">
-                    <h3 class="h1">03. Development</h3>
-                    <p>Once the design is approved, we bring it to life with modern, scalable technologies, ensuring performance, security, and seamless functionality across all devices.</p>
+                    <h3 class="h1">03. Phase Three</h3>
+                    <p>Quisque faucibus nulla ut leo tincidunt, sit amet tempor odio vehicula.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
             <div class="row justify-content-center align-items-center flex-row-reverse">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step4.jpg') }}" title="Delivery" alt="Delivery">
+                    <img src="{{ asset('static/img/step4.jpg') }}" title="Phase Four" alt="Phase Four">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 pe-xl-10">
-                    <h3 class="h1">04. Delivery</h3>
-                    <p>After thorough testing and final refinements, we ensure everything is polished and ready for launch. Your project goes live with full confidence in its quality and reliability.</p>
+                    <h3 class="h1">04. Phase Four</h3>
+                    <p>Aliquam erat volutpat. Donec condimentum lacus vitae neque auctor, et consequat mi sodales.</p>
                 </div>
             </div>
         </div>

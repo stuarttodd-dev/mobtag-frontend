@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row section-heading">
             <div class="col-lg-7 col-md-12 col-xs-10">
-                <h3 class="display-4 mb-4 text-white">Fast, Responsive Websites for Small Businesses</h3>
+                <h3 class="display-4 mb-4 text-white">Lorem Ipsum Dolor Sit Amet</h3>
                 <div class="fs-5 w-lg-80 text-white-50">
-                    Your business deserves a website that loads instantly, looks great on any device, and helps you attract more customers. We build high-performance, mobile-friendly sites designed to drive results.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Ut tristique orci ut eros gravida, sit amet aliquam orci vehicula.
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@
                             <div class="only-icon pe-3">
                                 <i class="bi bi-lightning-charge lh-1"></i>
                             </div>
-                            <div class="col">Blazing Fast Speeds</div>
+                            <div class="col">Lorem Ipsum</div>
                         </a>
                     </li>
                     <li class="nav-item my-3" role="presentation">
@@ -24,7 +24,7 @@
                             <div class="only-icon pe-3">
                                 <i class="bi bi-phone lh-1"></i>
                             </div>
-                            <div class="col">100% Mobile-Friendly</div>
+                            <div class="col">Dolor Sit Amet</div>
                         </a>
                     </li>
                     <li class="nav-item my-3" role="presentation">
@@ -32,7 +32,7 @@
                             <div class="only-icon pe-3">
                                 <i class="bi bi-search lh-1"></i>
                             </div>
-                            <div class="col">SEO-Optimised</div>
+                            <div class="col">Consectetur Adipiscing</div>
                         </a>
                     </li>
                 </ul>
@@ -42,14 +42,14 @@
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('static/img/fast-loading.png') }}" title="Fast Loading Websites" alt="Fast Website" style="width:350px">
+                                <img src="{{ asset('static/img/fast-loading.png') }}" title="Lorem Ipsum" alt="Lorem" style="width:350px">
                             </div>
                             <div class="col-md-6 col-xl-4">
-                                <h3 class="display-7 my-4 text-white">Lightning-Fast Performance</h3>
+                                <h3 class="display-7 my-4 text-white">Lorem Ipsum Dolor Sit Amet</h3>
                                 <div class="mb-4 text-white-50">
-                                    We optimise every aspect of your site to ensure fast load times and seamless browsing. A slow website costs you customers—ours keep them engaged.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut urna dui. Curabitur id feugiat risus, sit amet laoreet enim.
                                 </div>
-                                <a class="btn btn-warning" href="{{ route('contact-us') }}">
+                                <a class="btn btn-warning" href="https://assets.mobtag.io/register">
                                     <span class="btn--text">Get Started Today</span>
                                     <i class="bi bi-arrow-up-right"></i>
                                 </a>
@@ -59,14 +59,14 @@
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('static/img/mobile-friendly.png') }}" title="Mobile-Friendly Websites" alt="Responsive Design" style="width:350px">
+                                <img src="{{ asset('static/img/mobile-friendly.png') }}" title="Dolor Sit Amet" alt="Dolor" style="width:350px">
                             </div>
                             <div class="col-md-6 col-xl-4">
-                                <h3 class="display-7 my-4 text-white">100% Mobile-Friendly</h3>
+                                <h3 class="display-7 my-4 text-white">Dolor Sit Amet</h3>
                                 <div class="mb-4 text-white-50">
-                                    Over half of web traffic comes from mobile devices. We design responsive websites that look perfect on any screen, from phones to desktops.
+                                    Donec euismod, nisi vel tincidunt malesuada, nunc lectus viverra enim, id condimentum purus urna vel magna. Donec eleifend placerat enim.
                                 </div>
-                                <a class="btn btn-warning" href="{{ route('contact-us') }}">
+                                <a class="btn btn-warning" href="https://assets.mobtag.io/register">
                                     <span class="btn--text">Get Started Today</span>
                                     <i class="bi bi-arrow-up-right"></i>
                                 </a>
@@ -76,14 +76,14 @@
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                         <div class="row justify-content-center align-items-center">
                             <div class="col-md-6">
-                                <img src="{{ asset('static/img/seo.png') }}" title="SEO Optimised Websites" alt="SEO" style="width:350px">
+                                <img src="{{ asset('static/img/seo.png') }}" title="Consectetur Adipiscing" alt="Consectetur" style="width:350px">
                             </div>
                             <div class="col-md-6 col-xl-4">
-                                <h3 class="display-7 my-4 text-white">SEO-Optimised for Growth</h3>
+                                <h3 class="display-7 my-4 text-white">Consectetur Adipiscing</h3>
                                 <div class="mb-4 text-white-50">
-                                    What’s the point of a great website if no one finds it? Our sites are built with SEO best practices, helping your business rank higher and attract more visitors.
+                                    Curabitur nec libero turpis. Duis cursus fermentum erat, vel convallis mauris viverra a. Etiam venenatis sem in dolor egestas, at bibendum orci gravida.
                                 </div>
-                                <a class="btn btn-warning" href="{{ route('contact-us') }}">
+                                <a class="btn btn-warning" href="https://assets.mobtag.io/register">
                                     <span class="btn--text">Get Started Today</span>
                                     <i class="bi bi-arrow-up-right"></i>
                                 </a>

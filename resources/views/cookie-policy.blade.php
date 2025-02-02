@@ -7,25 +7,29 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h5>This Cookie Policy explains how Half Shell Studios uses cookies and similar technologies when you visit our website.</h5>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body text-center">
                     <p>
-                        1. <b>What Are Cookies:</b> Cookies are small pieces of data stored on your device that help improve your browsing experience. They may store information about your preferences or past interactions with our website.
+                        1. <b>Nullam tristique orci sit amet:</b> Aliquam suscipit velit ut erat bibendum, ut interdum ante tristique. Integer aliquet sapien id dui pretium malesuada.
                     </p>
 
                     <p class="mt-5">
-                        2. <b>How We Use Cookies:</b> We use cookies to analyze website traffic, personalize content, and provide social media features. Cookies also help us understand how you interact with our site, allowing us to make improvements.
+                        2. <b>Phasellus vitae ante eget:</b> Fusce quis lorem non arcu tempus pharetra eget in nisi. Aenean euismod ante vitae erat convallis, ut iaculis elit volutpat.
                     </p>
 
                     <p class="mt-5">
-                        3. <b>Types of Cookies:</b> We use both session and persistent cookies. Session cookies are temporary and are deleted when you close your browser, while persistent cookies remain on your device for a set period.
+                        3. <b>Curabitur facilisis lorem eu:</b> Duis pretium enim nec arcu interdum, vel varius justo gravida. Integer posuere velit eu mi auctor, vel elementum felis mollis.
                     </p>
 
                     <p class="mt-5">
-                        4. <b>Managing Cookies:</b> You can control and manage cookies in your browser settings. However, disabling certain cookies may impact your experience on our website.
+                        4. <b>Vivamus vulputate ligula in:</b> Etiam at leo nec augue condimentum ullamcorper. Nam vel elit turpis, vitae tempor odio facilisis. Suspendisse potenti.
+                    </p>
+
+                    <p class="mt-5">
+                        5. <b>Ut tempor pharetra felis:</b> Phasellus id risus sit amet nunc consectetur tempus. Nulla ac tristique ante, at tincidunt sem. Pellentesque euismod augue ac viverra egestas.
                     </p>
 
                     <p class="mt-5">

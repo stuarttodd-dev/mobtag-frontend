@@ -7,25 +7,25 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h5>By using our services, you agree to comply with the following terms and conditions.</h5>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
                 </div>
             </div>
             <div class="card">
                 <div class="card-body text-center">
                     <p>
-                        1. <b>Acceptance of Terms:</b> By accessing and using Half Shell Studios's website, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.
+                        1. <b>Nullam dictum risus eget urna auctor vehicula:</b> Vivamus molestie risus id ex condimentum, at feugiat metus fermentum. Integer ut metus purus. Nulla facilisi.
                     </p>
 
                     <p class="mt-5">
-                        2. <b>Code Excellence:</b> Half Shell Studios is committed to delivering high-quality software solutions. Our services adhere to industry best practices, including clean code, SOLID principles, and test-driven development (TDD).
+                        2. <b>Code Curabitur faucibus:</b> Aliquam lobortis, erat sit amet rhoncus efficitur, ligula turpis sollicitudin ante, vitae imperdiet eros leo non nulla.
                     </p>
 
                     <p class="mt-5">
-                        3. <b>Intellectual Property:</b> All content and materials on this website are the intellectual property of Half Shell Studios. You may not use, modify, or distribute any content without explicit permission.
+                        3. <b>Proin placerat pharetra:</b> In condimentum lectus ut eros gravida, eget sollicitudin felis egestas. Aenean eget nisi interdum, ultricies leo ac, luctus metus.
                     </p>
 
                     <p class="mt-5">
-                        4. <b>Modifications:</b> Half Shell Studios reserves the right to modify, suspend, or discontinue any aspect of the services at any time without prior notice.
+                        4. <b>Fusce ac ligula vitae libero consequat auctor:</b> Integer vulputate augue in augue luctus, vitae consequat nulla fermentum. Curabitur et libero velit.
                     </p>
                 </div>
             </div>

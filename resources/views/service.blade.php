@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 pe-lg-10 my-3">
-                    <h3 class="display-6 mb-4">Why us?</h3>
+                    <h3 class="display-6 mb-4">Dolor Sit Amet?</h3>
                     <div class="lead">{{ $service->long_desc }}</div>
                 </div>
                 <div class="col-lg-6 my-3">

@@ -5,7 +5,7 @@
             <div class="col-lg-7 text-center">
                 <h3 class="h1 text-white">Lorem ipsum dolor sit amet?</h3>
                 <p class="lead text-white">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><div class="pt-3">
-                    <a class="btn btn-primary" href="https://assets.mobtag.io">
+                    <a class="btn btn-primary" href="https://assets.mobtag.io/register">
                                 <span class="btn--text">
                                     Sign Up Now!
                                 </span>

@@ -14,9 +14,9 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h3 class="display-6 mb-3">How we can help you?</h3>
+                    <h3 class="display-6 mb-3">Lorem Ipsum Dolor Sit Amet</h3>
                     <div class="w-80px bg-primary h-2px mx-auto mb-4"></div>
-                    <div class="lead">We’d love to hear from you! Whether you’re looking to start a new project, need support, or just have a question, we’re here to help. Let’s build something amazing together.</div>
+                    <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur luctus erat eget felis sollicitudin, nec hendrerit tortor volutpat. Duis at tempor turpis.</div>
                 </div>
             </div>
             <div class="card">
@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-success" type="submit" name="send">Send Message</button>
+                                <button class="btn btn-primary" type="submit" name="send">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -66,7 +66,7 @@
                             </div>
                             <div>
                                 <div class="font-w-300 mb-1">PHONE NUMBER</div>
-                                <h5 class="m-0">+447384758096</h5>
+                                <h5 class="m-0">+441111111111</h5>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                             </div>
                             <div>
                                 <div class="font-w-300 mb-1">EMAIL</div>
-                                <h5 class="m-0">hello@halfshellstudios.co.uk</h5>
+                                <h5 class="m-0">info@mobtag.info</h5>
                             </div>
                         </div>
                     </div>
