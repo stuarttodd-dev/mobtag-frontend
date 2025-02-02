@@ -1,4 +1,4 @@
-<section class="page-heading" style="background-color: #143032; background-image: url('{{ asset('assets/svg/footer-pattern.svg') }}');background-size: cover;">
+<section class="page-heading bg-dark">
     <div class="container position-relative">
         <div class="row align-items-center justify-content-center min-vh-40">
             <div class="col-lg-8 text-center">

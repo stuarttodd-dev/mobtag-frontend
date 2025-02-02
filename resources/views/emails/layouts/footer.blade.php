@@ -14,7 +14,7 @@
     <table border="0" cellpadding="0" cellspacing="0">
         <tr>
             <td class="content-block powered-by">
-                Powered by <a href="https://www.half-shell-studios.co.uk">Half Shell Studios</a>.
+                Powered by <a href="https://mobtag.io">Mob Tag</a>.
             </td>
         </tr>
     </table>
