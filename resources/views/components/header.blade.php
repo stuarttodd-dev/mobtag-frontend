@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a href="{{ route('home') }}">
-                <img src="{{ asset('assets/images/primary-logo.png') }}" alt="Half Shell Studios" style="width:150px">
+                <img src="{{ asset('assets/images/mobtag.png') }}" alt="Mobtag" style="width:150px">
             </a>
             <button class="navbar-toggler ms-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
             </div>
             <div class="nav flex-nowrap align-items-center">
                 <div class="nav-item d-none d-xl-block">
-                    <a href="{{ route('register') }}" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
+                    <a href="https://assets.mobtag.io" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
                 </div>
             </div>
         </div>
