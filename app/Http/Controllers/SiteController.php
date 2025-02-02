@@ -100,7 +100,7 @@ class SiteController extends Controller
         return view('why-choose-us', $this->viewData);
     }
 
-    public function service(Service $id)
+    public function feature(Service $id)
     {
         $data = [
             'services' => Service::where('id', '!=', $id)->get(),
@@ -116,7 +116,7 @@ class SiteController extends Controller
         return view('service', $this->viewData);
     }
 
-    public function services()
+    public function features()
     {
         $data = [
             'services' => Service::all(),
@@ -147,7 +147,7 @@ class SiteController extends Controller
         return view('article', $this->viewData);
     }
 
-    public function blog()
+    public function case_studies()
     {
         $data = [
             'articles' => Article::where('active', true)->get()->sortBy('position'),

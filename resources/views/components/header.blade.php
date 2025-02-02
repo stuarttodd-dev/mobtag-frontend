@@ -19,10 +19,10 @@
                         <a href="{{ route('why-choose-us') }}" class="nav-link">Why Choose Us?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('services') }}" class="nav-link">Services</a>
+                        <a href="{{ route('features') }}" class="nav-link">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('blog') }}" class="nav-link">Blog</a>
+                        <a href="{{ route('case-studies') }}" class="nav-link">Case Studies</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('contact-us') }}" class="nav-link">
@@ -33,7 +33,7 @@
             </div>
             <div class="nav flex-nowrap align-items-center">
                 <div class="nav-item d-none d-xl-block">
-                    <a href="{{ route('contact-us') }}" class="btn btn-sm btn-success rounded mb-0 mx-2 text-nowrap">Get a FREE Quote</a>
+                    <a href="{{ route('register') }}" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
                 </div>
             </div>
         </div>

@@ -4,8 +4,10 @@
             <div class="row g-0">
                 <div class="col-lg-6 p-4 p-xl-8">
                     <div class="section-heading">
-                        <h3 class="h1">Get in Touch</h3>
-                        <div class="lead">We’d love to hear from you! Whether you’re looking to start a new project, need support, or just have a question, we’re here to help. Let’s build something amazing together.</div>
+                        <h3 class="h1">Contact Us</h3>
+                        <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
+                            Nulla venenatis, erat nec efficitur volutpat, nisi orci dictum elit, eu facilisis tortor risus at odio.
+                            Integer ut orci malesuada, interdum erat sed, posuere nunc.</div>
                     </div>
                     <form method="post" action="{{ route('contact-us-submission') }}">
                         @csrf
@@ -51,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="col-12 pt-3">
-                                <button class="btn btn-success" type="submit" name="send">Send Message</button>
+                                <button class="btn btn-primary" type="submit" name="send">Send Message</button>
                             </div>
                         </div>
                     </form>

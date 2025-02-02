@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Half Shell Studios Email</title>
+    <title>Mobtag Email</title>
     <style>
         img {
             border: none;
@@ -275,7 +275,7 @@
                         <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#f2f2f2">
                             <tr>
                                 <td>
-                                    <img src="https://halfshellstudios.co.uk/assets/images/primary-logo.png" alt="Banner" class="banner" style="margin-top:20px">
+                                    <img src="https://mobtag.io/assets/images/primary-logo.png" alt="Banner" class="banner" style="margin-top:20px">
                                 </td>
                             </tr>
                         </table>

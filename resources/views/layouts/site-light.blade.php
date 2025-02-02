@@ -20,14 +20,7 @@
         @yield('styles')
 
         @if(env('APP_ENV') === 'production')
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-K8JY0HLEE5"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-K8JY0HLEE5');
-        </script>
         @endif
 </head>
 
