@@ -20,7 +20,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 1, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 1, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 2, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 2, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 3, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 3, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 4, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 4, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 5, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 5, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                             <h5 class="text-white">Lorem Ipsum Dolor Sit Amet</h5>
                             <p class="m-0 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <div class="pt-2 btn-bar">
-                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 6, 'slug' => 'mobile-app-development']) }}">Find out more</a>
+                                <a class="btn btn-light btn-sm" href="{{ route('feature', ['id' => 6, 'slug' => 'lorem-ipsum-dolor']) }}">Find out more</a>
                             </div>
                         </div>
                     </div>
