@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-sm-6 col-lg-3">
                     <a href="{{ route('home') }}">
-                        <img src="{{ asset('assets/images/mobtag.png') }}" alt="Mobtag" style="width:150px">
+                        <img src="{{ asset('assets/images/mobtag-logo-white.png') }}" alt="Mobtag" style="width:150px">
                     </a>
                     <p class="w-md-80 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod ligula at erat scelerisque, vel faucibus nulla lacinia.</p>
                 </div>
