@@ -86,7 +86,7 @@ class SiteController extends Controller
         return view('about-us', $this->viewData);
     }
 
-    public function why_choose_us()
+    public function how_does_it_work()
     {
         $data = [
             'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',

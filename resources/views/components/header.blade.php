@@ -16,7 +16,7 @@
                         <a href="{{ route('about-us') }}" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ route('why-choose-us') }}" class="nav-link">Why Choose Us?</a>
+                        <a href="{{ route('how-does-it-work') }}" class="nav-link">How Does It Work?</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ route('features') }}" class="nav-link">Features</a>

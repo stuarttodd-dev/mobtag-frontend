@@ -23,7 +23,7 @@
                     <h5 class="text-white my-3">Explore</h5>
                     <ul class="list-unstyled white-link footer-links">
                         <li><a href="{{ route('about-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">About Us</a></li>
-                        <li><a href="{{ route('why-choose-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Why Choose Us?</a></li>
+                        <li><a href="{{ route('how-does-it-work') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">How Does It Work?</a></li>
                         <li><a href="{{ route('features') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Services</a></li>
                         <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Blog</a></li>
                         <li><a href="https://assets.mobtag.io/register" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">SIGN UP</a></li>

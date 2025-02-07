@@ -14,7 +14,7 @@ Route::controller(SiteController::class)->group(function() {
     Route::get('/privacy-policy', 'privacy_policy')->name('privacy-policy');
     Route::get('/terms-and-conditions', 'terms_and_conditions')->name('terms-and-conditions');
     Route::get('/cookie-policy', 'cookie_policy')->name('cookie-policy');
-    Route::get('/why-choose-us', 'why_choose_us')->name('why-choose-us');
+    Route::get('/how-does-it-work', 'how_does_it_work')->name('how-does-it-work');
 
     Route::get('/feature/{id}/{slug}', 'feature')->name('feature');
     Route::get('/case-study/{id}/{slug}', 'case_study')->name('case-study');
