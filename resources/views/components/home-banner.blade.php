@@ -6,7 +6,7 @@
                     Materials, Equipment and Compliance Management
                 </h1>
                 <p class="lead">
-                    Mobtag have simplified our system so that it can be easily tailored by every work to suit their ??? requirements.
+                    The QR code linked, digital asset platform from Mobtag is designed with simplicity in mind, allowing users to tailor the system to suit their business, processes and clients needs.  Challenge us to implement the system to optimise the benefits.  Or, feel free to register and start the process yourself today.
                 </p>
                 <div class="pt-2 mt-4">
                     <a class="btn btn-turtle shadow" href="https://assets.mobtag.io">

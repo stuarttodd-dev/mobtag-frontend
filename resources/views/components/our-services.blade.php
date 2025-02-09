@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row justify-content-center section-heading">
             <div class="col-lg-8 col-xl-6 text-center">
-                <h3 class="display-6 mb-3">Our Services</h3>
+                <h3 class="display-6 mb-3">Example Applications</h3>
                 <div class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    To help provide some inspiration to the applications Mobtag is suited to here are some examples.
                 </div>
             </div>
         </div>

@@ -2,9 +2,9 @@
     <div class="container px-4">
         <div class="row justify-content-center section-heading">
             <div class="col-lg-8 col-xl-6 text-center">
-                <h3 class="display-6 mb-3">Lorem Ipsum Dolor</h3>
-                <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                <h3 class="display-6 mb-3">Case Studies</h3>
+                <div class="lead">
+                    Mobtag have partnered with many organisation to help enhance their processes and customer experiences, here’s some case studies and testimonials.
                 </div>
             </div>
         </div>
