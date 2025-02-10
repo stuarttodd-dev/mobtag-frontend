@@ -2,8 +2,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <img class="logo-light" src="{{ asset('assets/images/mobtag-logo-white.png') }}" title="Mobtag" alt="Mobtag" style="width:150px">
-                <img class="logo-dark" src="{{ asset('assets/images/mobtag.png') }}" title="Mobtag" alt="Mobtag" style="width:150px">
+                <img class="logo-dark" src="{{ asset('assets/images/mobtag-logo-white.png') }}" title="Mobtag" alt="Mobtag" style="width:150px">
+                <img class="logo-light" src="{{ asset('assets/images/mobtag.png') }}" title="Mobtag" alt="Mobtag" style="width:150px">
             </a>
             <button class="navbar-toggler ms-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

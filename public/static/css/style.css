@@ -13483,17 +13483,20 @@ article blockquote + .h5 {
 
 /*Logo show hide on scroll
 -----------------------------------*/
-.header-light .logo-dark {
+.header-dark .logo-dark {
+  display: none; }
+
+.header-light .logo-light {
   display: none; }
 
 .fixed-header .navbar {
   background-color: #ffffff;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05), 0 1.5rem 2.2rem rgba(0, 0, 0, 0.1); }
 
-.fixed-header .logo-light {
+.fixed-header .logo-dark {
   display: none; }
 
-.fixed-header .logo-dark {
+.fixed-header .logo-light {
   display: inline-flex; }
 
 .header-border-bottom {
