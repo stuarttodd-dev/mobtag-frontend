@@ -12,7 +12,7 @@
             <div class="col-lg-4 my-3">
                 <div class="flip-box shadow rounded">
                     <div class="flip-box-img">
-                        <img src="{{ asset('assets/images/mobtag.png') }}" title="" alt="" style="height:250px; width:100%">
+                        <img src="{{ asset('assets/images/calibration.jpg') }}" title="Calibration" alt="Calibration" style="height:250px; width:100%">
                     </div>
                     <div class="flip-box-content d-flex align-items-center justify-content-center bg-dark">
                         <div class="p-5 text-center">

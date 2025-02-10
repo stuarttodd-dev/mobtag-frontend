@@ -21,7 +21,7 @@
             <div class="col-md-4 my-3 px-3">
                 <div class="d-flex flex-column justify-content-between py-5 px-4 shadow shadow-hover rounded-3 hover-top text-center h-100">
                     <div>
-                        <h5 class="pt-3 h4 mb-3">Lorn Stewart</h5>
+                        <h5 class="pt-3 h4 mb-3">ESSCO group</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
                             Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
                     </div>
@@ -30,7 +30,7 @@
             <div class="col-md-4 my-3 px-3">
                 <div class="d-flex flex-column justify-content-between py-5 px-4 shadow shadow-hover rounded-3 hover-top text-center h-100">
                     <div>
-                        <h5 class="pt-3 h4 mb-3">Sinnerg</h5>
+                        <h5 class="pt-3 h4 mb-3">Sunnerg</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
                             Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
                     </div>
