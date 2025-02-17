@@ -6,11 +6,11 @@
                     <a href="{{ route('home') }}">
                         <img src="{{ asset('assets/images/mobtag-logo-white.png') }}" alt="Mobtag" style="width:150px">
                     </a>
-                    <p class="w-md-80 text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod ligula at erat scelerisque, vel faucibus nulla lacinia.</p>
+                    <p class="w-md-80 text-white-50">Digital Asset Tagging and Management</p>
                 </div>
                 <div class="col-sm-6 col-lg-3">
                     @if(!empty($footerServices))
-                        <h5 class="text-white my-3">Services</h5>
+                        <h5 class="text-white my-3">Case Studies</h5>
                         <ul class="list-unstyled white-link footer-links">
                             @foreach($footerServices as $service)
                                 <li><a href="{{ route('feature', ['id' => $service->id, 'slug' => $service->slug]) }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">{{ $service->title }}</a></li>
@@ -24,7 +24,7 @@
                     <ul class="list-unstyled white-link footer-links">
                         <li><a href="{{ route('about-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">About Us</a></li>
                         <li><a href="{{ route('how-does-it-work') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">How Does It Work?</a></li>
-                        <li><a href="{{ route('features') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Services</a></li>
+                        <li><a href="{{ route('features') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Features</a></li>
                         <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Blog</a></li>
                         <li><a href="https://assets.mobtag.io/register" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">SIGN UP</a></li>
                     </ul>
@@ -32,9 +32,10 @@
                 <div class="col-sm-6 col-lg-3">
                     <h5 class="text-white my-3">Policies</h5>
                     <ul class="list-unstyled white-link footer-links">
-                        <li><a href="{{ route('terms-and-conditions') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Terms</a></li>
-                        <li><a href="{{ route('privacy-policy') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Privacy Policy</a></li>
-                        <li><a href="{{ route('cookie-policy') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Cookie Policy</a></li>
+                        <li><a href="{{ asset('terms.pdf')}}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Terms</a></li>
+                        <li><a href="{{ asset('privacy.pdf')}}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Privacy Policy</a></li>
+                        <li><a href="{{ asset('cookies.pdf')}}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Cookie Policy</a></li>
+                        <li><a href="{{ asset('acceptable_use.pdf')}}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Acceptable Use Policy</a></li>
                     </ul>
                 </div>
             </div>

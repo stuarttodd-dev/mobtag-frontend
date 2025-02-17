@@ -5,9 +5,7 @@
                 <div class="col-lg-6 p-4 p-xl-8">
                     <div class="section-heading">
                         <h3 class="h1">Contact Us</h3>
-                        <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
-                            Nulla venenatis, erat nec efficitur volutpat, nisi orci dictum elit, eu facilisis tortor risus at odio.
-                            Integer ut orci malesuada, interdum erat sed, posuere nunc.</div>
+                        <div class="lead">At Mobtag, we're here to help you streamline the management of your digital assets. Whether you’re looking for a customised QR code solution, need assistance with asset tracking, or simply have a question about our services, our team is ready to assist you.</div>
                     </div>
                     <form method="post" action="{{ route('contact-us-submission') }}">
                         @csrf

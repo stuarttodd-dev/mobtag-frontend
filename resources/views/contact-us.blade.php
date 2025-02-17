@@ -14,9 +14,8 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h3 class="display-6 mb-3">Lorem Ipsum Dolor Sit Amet</h3>
                     <div class="w-80px bg-primary h-2px mx-auto mb-4"></div>
-                    <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur luctus erat eget felis sollicitudin, nec hendrerit tortor volutpat. Duis at tempor turpis.</div>
+                    <div class="lead">At Mobtag, we're here to help you streamline the management of your digital assets. Whether you’re looking for a customized QR code solution, need assistance with asset tracking, or simply have a question about our services, our team is ready to assist you.</div>
                 </div>
             </div>
             <div class="card">
@@ -66,7 +65,7 @@
                             </div>
                             <div>
                                 <div class="font-w-300 mb-1">PHONE NUMBER</div>
-                                <h5 class="m-0">+441111111111</h5>
+                                <h5 class="m-0">TBC</h5>
                             </div>
                         </div>
                     </div>

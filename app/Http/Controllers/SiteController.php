@@ -23,17 +23,17 @@ class SiteController extends Controller
             'menuProjects' => Project::all()->sortBy('position')->take(10),
             'menuServices' => Service::all()->sortBy('position')->take(10),
             'menuArticles' => Article::all()->sortBy('position')->take(10),
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'shortDesc' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'metaTitle' => 'Mobtag - QR Code Digital Asset Management',
+            'shortDesc' => 'Manage your digital assets efficiently with QR codes. Track, organize, and access assets in real time.',
         ];
     }
 
     public function home()
     {
         $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'metaTitle' => 'Welcome to Mobtag - Digital Asset Management with QR Codes',
+            'metaKeywords' => 'QR codes, digital asset management, asset tracking, Mobtag, asset organization, real-time access',
+            'metaDescription' => 'Mobtag allows you to manage your digital assets using QR codes. Streamline tracking, access, and organization of your assets instantly.',
         ];
 
         $this->viewData = array_merge($this->viewData, $data);
@@ -45,10 +45,10 @@ class SiteController extends Controller
     {
         $data = [
             'projects' => Project::all(),
-            'pageTitle' => 'Projects',
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'pageTitle' => 'Our Projects',
+            'metaTitle' => 'Mobtag Projects - Digital Asset Management Solutions',
+            'metaKeywords' => 'QR codes, asset tracking, digital management, Mobtag projects, case studies',
+            'metaDescription' => 'Explore the projects behind Mobtag’s digital asset management solutions, utilizing QR codes for enhanced organization and real-time access.',
             'pages' => 'Our Projects',
         ];
 
@@ -75,9 +75,9 @@ class SiteController extends Controller
     public function about()
     {
         $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'metaTitle' => 'About Mobtag - Digital Asset Management with QR Codes',
+            'metaKeywords' => 'QR code technology, digital asset management, Mobtag team, asset organization',
+            'metaDescription' => 'Learn about Mobtag, the digital asset management system leveraging QR code technology for efficient asset tracking and organization.',
             'page' => 'About Us',
         ];
 
@@ -89,10 +89,10 @@ class SiteController extends Controller
     public function how_does_it_work()
     {
         $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'page' => 'Why Choose Us?',
+            'metaTitle' => 'How Mobtag Works - Streamlined Asset Management with QR Codes',
+            'metaKeywords' => 'QR codes, how Mobtag works, asset tracking system, real-time asset management',
+            'metaDescription' => 'Discover how Mobtag’s digital asset management system uses QR codes for easy asset tracking, organization, and instant access.',
+            'page' => 'How Mobtag Works',
         ];
 
         $this->viewData = array_merge($this->viewData, $data);
@@ -119,11 +119,11 @@ class SiteController extends Controller
     public function features()
     {
         $data = [
-            'services' => Service::all(),
-            'pageTitle' => 'Features',
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'services' => Project::all(),
+            'pageTitle' => 'Our Features',
+            'metaTitle' => 'Mobtag Features - Asset Tracking, Organization, and Access',
+            'metaKeywords' => 'QR codes, asset management features, Mobtag services, digital asset tracking, real-time organization',
+            'metaDescription' => 'Explore the key features of Mobtag’s digital asset management system, leveraging QR code technology for easy tracking and access.',
             'page' => 'Our Features',
         ];
 
@@ -151,10 +151,10 @@ class SiteController extends Controller
     {
         $data = [
             'articles' => Article::where('active', true)->get()->sortBy('position'),
-            'pageTitle' => 'Case Studies',
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'pageTitle' => 'Case Studies - Mobtag Digital Asset Management',
+            'metaTitle' => 'Mobtag Case Studies - Real-World Applications of QR Code Asset Management',
+            'metaKeywords' => 'QR code case studies, digital asset tracking, asset management, Mobtag case studies, real-time tracking',
+            'metaDescription' => 'Read about how businesses are benefiting from Mobtag’s digital asset management system, utilizing QR code technology for easy tracking and access.',
             'page' => 'Case Studies',
         ];
 
@@ -178,55 +178,12 @@ class SiteController extends Controller
             ->with('success', "Thank you for contacting us. We've received your email and will get back to you shortly.");
     }
 
-
-    public function privacy_policy()
-    {
-        $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'page' => 'Privacy Policy',
-        ];
-
-        $this->viewData = array_merge($this->viewData, $data);
-
-        return view('privacy-policy', $this->viewData);
-    }
-
-    public function terms_and_conditions()
-    {
-        $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'page' => 'Our Terms',
-        ];
-
-        $this->viewData = array_merge($this->viewData, $data);
-
-        return view('terms-and-conditions', $this->viewData);
-    }
-
-    public function cookie_policy()
-    {
-        $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            'page' => 'Cookie Policy',
-        ];
-
-        $this->viewData = array_merge($this->viewData, $data);
-
-        return view('cookie-policy', $this->viewData);
-    }
-
     public function contact()
     {
         $data = [
-            'metaTitle' => 'Lorem Ipsum - Dolor Sit Amet',
-            'metaKeywords' => 'lorem, ipsum, dolor, sit, amet, consectetur, adipiscing, elit, sed, do',
-            'metaDescription' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            'metaTitle' => 'Contact Mobtag - Get in Touch for Asset Management Solutions',
+            'metaKeywords' => 'contact Mobtag, asset management inquiries, QR code technology, support, digital asset management',
+            'metaDescription' => 'Get in touch with Mobtag to learn more about our digital asset management system using QR codes for real-time tracking and access.',
             'page' => 'Contact Us'
         ];
 
