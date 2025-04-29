@@ -12,9 +12,9 @@
                     @if(!empty($footerServices))
                         <h5 class="text-white my-3">Case Studies</h5>
                         <ul class="list-unstyled white-link footer-links">
-                            @foreach($footerServices as $service)
-                                <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">{{ $service->title }}</a></li>
-                            @endforeach
+                            <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">MGH</a></li>
+                            <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">ESSCO Group</a></li>
+                            <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Sunnerg</a></li>
                         </ul>
                     @endif
                 </div>
