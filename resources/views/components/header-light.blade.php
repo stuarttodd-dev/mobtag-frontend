@@ -34,6 +34,9 @@
             </div>
             <div class="nav flex-nowrap align-items-center">
                 <div class="nav-item d-none d-xl-block">
+                    <a href="https://assets.mobtag.io/register" class="btn btn-sm btn-success rounded mb-0 text-nowrap">Login</a>
+                </div>
+                <div class="nav-item d-none d-xl-block">
                     <a href="https://assets.mobtag.io/register" class="btn btn-sm btn-primary rounded mb-0 mx-2 text-nowrap">Register</a>
                 </div>
             </div>
