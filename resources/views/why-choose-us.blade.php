@@ -7,9 +7,9 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h3 class="display-6 mb-3">Lorem ipsum dolor sit amet</h3>
+                    <h3 class="display-6 mb-3">Why Choose Us?</h3>
                     <div class="w-80px bg-primary h-2px mx-auto mb-4"></div>
-                    <p class="lead">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="lead">We provide innovative solutions to help businesses thrive in the digital world. Our team of experts is dedicated to delivering top-notch service with a focus on your success.</p>
                 </div>
             </div>
             <div class="row pt-6">
@@ -19,8 +19,8 @@
                             <i class="bi bi-briefcase"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Nulla facilisi</h6>
-                            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus scelerisque.</p>
+                            <h6>Expertise</h6>
+                            <p class="m-0">Our team brings years of experience across a variety of industries, ensuring your business receives the best strategies tailored to your needs.</p>
                         </div>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                             <i class="bi bi-columns"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Aliquam hendrerit</h6>
-                            <p class="m-0">Proin fringilla nunc vel sollicitudin. Curabitur varius ex in felis efficitur volutpat.</p>
+                            <h6>Innovative Solutions</h6>
+                            <p class="m-0">We specialise in delivering cutting-edge technology solutions that drive growth and help you stay ahead of the competition.</p>
                         </div>
                     </div>
                 </div>
@@ -41,8 +41,8 @@
                             <i class="bi bi-command"></i>
                         </div>
                         <div class="col ps-4">
-                            <h6>Vestibulum ante</h6>
-                            <p class="m-0">Sed dignissim sapien nec ante convallis, non venenatis magna placerat.</p>
+                            <h6>Customer Focus</h6>
+                            <p class="m-0">Your success is our priority. We collaborate closely with you to ensure that our solutions meet your specific business goals.</p>
                         </div>
                     </div>
                 </div>
@@ -54,31 +54,31 @@
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step1.png') }}" title="Phase One" alt="Phase One">
+                    <img src="{{ asset('static/img/fast-loading.png') }}" title="Phase One" alt="Phase One">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 ps-xl-10">
-                    <h3 class="h1">01. Phase One</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.</p>
+                    <h3 class="h1">01. Discovery & Planning</h3>
+                    <p>We begin by understanding your business objectives and challenges, gathering all the information necessary to craft a tailored strategy for success.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
             <div class="row justify-content-center align-items-center flex-row-reverse">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step2.png') }}" title="Phase Two" alt="Phase Two">
+                    <img src="{{ asset('static/img/mobile-friendly.png') }}" title="Phase Two" alt="Phase Two">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 pe-xl-10">
-                    <h3 class="h1">02. Phase Two</h3>
-                    <p>Maecenas malesuada nibh id dui condimentum, ut faucibus lorem iaculis.</p>
+                    <h3 class="h1">02. Design & Development</h3>
+                    <p>Our design and development teams collaborate to create innovative solutions that are not only visually appealing but also functional and user-friendly.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-xxl-5 col-lg-6 my-3">
-                    <img src="{{ asset('static/img/step3.png') }}" title="Phase Three" alt="Phase Three">
+                    <img src="{{ asset('static/img/seo.png') }}" title="Phase Three" alt="Phase Three">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 ps-xl-10">
-                    <h3 class="h1">03. Phase Three</h3>
-                    <p>Quisque faucibus nulla ut leo tincidunt, sit amet tempor odio vehicula.</p>
+                    <h3 class="h1">03. Testing & Optimisation</h3>
+                    <p>We rigorously test every component of the project to ensure everything works as expected. We then optimize the performance to guarantee seamless user experience.</p>
                 </div>
             </div>
             <div class="divider opacity-2 mx-auto w-60 w-md-50 w-lg-30 my-6 my-lg-12"></div>
@@ -87,8 +87,8 @@
                     <img src="{{ asset('static/img/step4.jpg') }}" title="Phase Four" alt="Phase Four">
                 </div>
                 <div class="col-xxl-5 col-lg-6 my-3 pe-xl-10">
-                    <h3 class="h1">04. Phase Four</h3>
-                    <p>Aliquam erat volutpat. Donec condimentum lacus vitae neque auctor, et consequat mi sodales.</p>
+                    <h3 class="h1">04. Launch & Support</h3>
+                    <p>After launch, we provide ongoing support and maintenance to ensure your solution continues to operate smoothly and evolve with your business needs.</p>
                 </div>
             </div>
         </div>

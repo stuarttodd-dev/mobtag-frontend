@@ -7,8 +7,10 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 pe-lg-10 my-3">
-                    <h3 class="display-6 mb-4">Lorem Ipsum Dolor Sit Amet</h3>
-                    <div class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae magna et velit tincidunt fermentum eu sed nisi. Ut vel pretium ante. Phasellus sagittis eu ante a suscipit. Aliquam erat volutpat. Integer maximus, leo et volutpat feugiat, nisl erat euismod lorem, ac elementum ante odio et metus.</div>
+                    <h3 class="display-6 mb-4">Who We Are</h3>
+                    <div class="lead">
+                        We’re a team of passionate technologists, creators, and problem solvers dedicated to building tools that help businesses grow and thrive. Since day one, we’ve believed in the power of simplicity, great design, and putting people first.
+                    </div>
                     <div class="card mt-5">
                         <div class="card-body">
                             <div class="d-flex mb-4">
@@ -16,19 +18,21 @@
                                     <i class="bi bi-patch-check"></i>
                                 </div>
                                 <div class="col ps-3">
-                                    <h3 class="h4">Sed Ut Perspiciatis Unde Omnis</h3>
-                                    <p class="lead m-0">Mauris in velit ac augue scelerisque dictum. Integer nec elit nisi. Nulla facilisi. Nunc egestas risus ut neque dictum, at lobortis odio tincidunt.</p>
+                                    <h3 class="h4">Our Mission</h3>
+                                    <p class="lead m-0">
+                                        To empower small businesses with smart, user-friendly software that drives success without the overhead of complexity.
+                                    </p>
                                 </div>
                             </div>
-                            <a class="btn btn-dark w-100" href="https://assets.mobtag.io/register">
+                            <a class="btn btn-dark w-100" href="{{ route('register') }}">
                                 <i class="bi bi-person"></i>
-                                <span class="btn--text">Get Started Today</span>
+                                <span class="btn--text">Join Our Journey</span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 my-3">
-                    <img class="shadow-sm rounded w-100" src="{{ asset('assets/images/mobtag.png') }}" title="" alt="">
+                    <img class="shadow-sm rounded w-100" src="{{ asset('assets/images/mobtag.png') }}" alt="Our team working together">
                 </div>
             </div>
         </div>
@@ -38,48 +42,30 @@
         <div class="container">
             <div class="row justify-content-center section-heading">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h3 class="display-6 mb-3">Nunc Volutpat Tempor Commodo</h3>
+                    <h3 class="display-6 mb-3">Our Core Values</h3>
                     <div class="w-80px bg-primary h-2px mx-auto mb-4"></div>
-                    <div class="lead">Sed vestibulum ante id odio dictum, at volutpat dui auctor. Suspendisse potenti. Vivamus ut augue sit amet nunc cursus tristique ut vel nulla.</div>
+                    <div class="lead">
+                        These aren’t just buzzwords – they’re the principles that guide every decision we make and every product we build.
+                    </div>
                 </div>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="p-3">
-                        <div class="icon icon-lg icon-primary rounded mb-4 font-w-700">
-                            <i class="fst-normal fs-5">01.</i>
+                @foreach ([
+                    ['title' => 'Integrity', 'desc' => 'We do the right thing, even when no one’s watching.'],
+                    ['title' => 'Simplicity', 'desc' => 'We keep things clear, concise, and easy to use.'],
+                    ['title' => 'Empathy', 'desc' => 'We build with real people in mind – not just users.'],
+                    ['title' => 'Excellence', 'desc' => 'We strive to do our best work, every single time.']
+                ] as $index => $value)
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="p-3">
+                            <div class="icon icon-lg icon-primary rounded mb-4 font-w-700">
+                                <i class="fst-normal fs-5">{{ sprintf('%02d.', $index + 1) }}</i>
+                            </div>
+                            <h5 class="mb-2">{{ $value['title'] }}</h5>
+                            <p class="m-0">{{ $value['desc'] }}</p>
                         </div>
-                        <h5 class="mb-2">Aliquam Erat Volutpat</h5>
-                        <p class="m-0">Donec auctor lacus ut arcu euismod, ac varius risus maximus. Sed vehicula libero vel lorem egestas maximus. Suspendisse at lorem nec sapien mollis luctus.</p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="p-3">
-                        <div class="icon icon-lg icon-primary rounded mb-4 font-w-700">
-                            <i class="fst-normal fs-5">02.</i>
-                        </div>
-                        <h5 class="mb-2">Etiam Ut Erat Sit Amet</h5>
-                        <p class="m-0">Fusce varius urna sit amet orci tempus, nec venenatis urna congue. Donec congue erat non eros suscipit, ac volutpat dui sollicitudin.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="p-3">
-                        <div class="icon icon-lg icon-primary rounded mb-4 font-w-700">
-                            <i class="fst-normal fs-5">03.</i>
-                        </div>
-                        <h5 class="mb-2">Vestibulum Quis Ipsum</h5>
-                        <p class="m-0">Integer euismod sem non turpis euismod, vel aliquet nisi tempor. Quisque quis dui eget nulla consequat malesuada at sed risus.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="p-3">
-                        <div class="icon icon-lg icon-primary rounded mb-4 font-w-700">
-                            <i class="fst-normal fs-5">04.</i>
-                        </div>
-                        <h5 class="mb-2">Cras Tempor Magna</h5>
-                        <p class="m-0">Pellentesque ac mauris eget nunc malesuada fermentum. Etiam ac nunc ac nulla aliquet luctus nec at lectus. Morbi feugiat vitae leo ac tincidunt.</p>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>

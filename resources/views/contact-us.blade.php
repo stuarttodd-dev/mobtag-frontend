@@ -58,18 +58,18 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-6 col-sm-6">
-                    <div class="card">
-                        <div class="card-body d-flex align-items-center">
-                            <div class="icon icon-primary icon-lg rounded-circle me-5">
-                                <i class="bi bi-phone"></i>
-                            </div>
-                            <div>
-                                <div class="font-w-300 mb-1">PHONE NUMBER</div>
-                                <h5 class="m-0">TBC</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                    <div class="card">--}}
+{{--                        <div class="card-body d-flex align-items-center">--}}
+{{--                            <div class="icon icon-primary icon-lg rounded-circle me-5">--}}
+{{--                                <i class="bi bi-phone"></i>--}}
+{{--                            </div>--}}
+{{--                            <div>--}}
+{{--                                <div class="font-w-300 mb-1">PHONE NUMBER</div>--}}
+{{--                                <h5 class="m-0">TBC</h5>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="col-lg-6 col-sm-6">
                     <div class="card">
                         <div class="card-body d-flex align-items-center">

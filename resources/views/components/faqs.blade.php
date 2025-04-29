@@ -5,8 +5,9 @@
     <div class="container position-relative">
         <div class="row justify-content-center section-heading">
             <div class="col-lg-8 col-xl-6 text-center">
-                <h3 class="display-6 mb-3 text-white">Lorem Ipsum Dolor? <br> Sit Amet Consectetur.</h3>
-                <div class="lead text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+                <h3 class="display-6 mb-3 text-white">Frequently Asked Questions<br>Everything You Need to Know</h3>
+                <div class="lead text-white-50">
+                    Got questions? We've got answers. Whether you're just getting started with Mobtag or exploring advanced features, this section covers the essentials to help you make the most of our platform.
                 </div>
             </div>
         </div>
@@ -20,14 +21,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3">
-                                Lorem ipsum dolor sit amet?
+                                What is Mobtag and how does it work?
                             </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_01">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            Mobtag is a digital asset management platform that uses QR codes to link physical assets to online records. Simply tag your equipment with a Mobtag QR code and scan it to view or update maintenance logs, compliance documents, and status in real time.
                         </div>
                     </div>
                 </div>
@@ -39,14 +38,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3">
-                                Lorem ipsum dolor sit amet?
-                            </span>
+                            Do I need any special equipment to use Mobtag?
+                        </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_02">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            No. Mobtag works with standard smartphones, tablets, and desktop browsers. There’s no need for dedicated scanning hardware—just scan the QR codes using your device’s camera or a compatible ap
                         </div>
                     </div>
                 </div>
@@ -58,14 +55,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3">
-                                Lorem ipsum dolor sit amet?
-                            </span>
+                            Can Mobtag be customised to suit our business processes?
+                        </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_03">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            Absolutely. Mobtag is built to be flexible and can be tailored to match your workflows, reporting needs, and industry-specific requirements. Whether you're managing tools, materials, or compliance records, Mobtag adapts to you.
                         </div>
                     </div>
                 </div>
@@ -79,14 +74,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3">
-                                Lorem ipsum dolor sit amet?
-                            </span>
+                            Is Mobtag suitable for small teams or only large organisations?
+                        </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_04">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            Mobtag scales with you. It’s just as effective for small businesses managing a few assets as it is for large organisations with thousands. Start simple and expand as your needs grow.
                         </div>
                     </div>
                 </div>
@@ -98,14 +91,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3">
-                                Lorem ipsum dolor sit amet?
-                            </span>
+                             What kind of assets can Mobtag manage?
+                        </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_05">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            Anything you can tag—Mobtag can manage. Common use cases include lifting equipment, calibration tools, PAT-tested items, hired equipment, hoses, and materials. If you track it, we can support it.
                         </div>
                     </div>
                 </div>
@@ -117,14 +108,12 @@
                                 <i class="bi bi-check-circle-fill"></i>
                             </span>
                         <span class="m-0 ps-3 text-left">
-                                Lorem ipsum dolor sit amet?
-                            </span>
+                            How secure is my data on the Mobtag platform?
+                        </span>
                     </button>
                     <div class="collapse multi-collapse" id="faq_06">
                         <div class="card card-body mt-2 bg-gray-800 text-white-50">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            Nunc ut tristique massa. Aenean sit amet purus vel arcu tristique vehicula.
+                            Security is a top priority. All data is encrypted in transit and at rest. We follow best practices for user authentication, access control, and regular backups to ensure your information remains protected.
                         </div>
                     </div>
                 </div>

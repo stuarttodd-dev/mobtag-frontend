@@ -13,7 +13,7 @@
                         <h5 class="text-white my-3">Case Studies</h5>
                         <ul class="list-unstyled white-link footer-links">
                             @foreach($footerServices as $service)
-                                <li><a href="{{ route('feature', ['id' => $service->id, 'slug' => $service->slug]) }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">{{ $service->title }}</a></li>
+                                <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">{{ $service->title }}</a></li>
                             @endforeach
                         </ul>
                     @endif
@@ -25,7 +25,6 @@
                         <li><a href="{{ route('about-us') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">About Us</a></li>
                         <li><a href="{{ route('how-does-it-work') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">How Does It Work?</a></li>
                         <li><a href="{{ route('features') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Features</a></li>
-                        <li><a href="{{ route('case-studies') }}" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">Blog</a></li>
                         <li><a href="https://assets.mobtag.io/register" class="hover:border-b hover:border-turtle tracking-custom2 opacity-75 text-sm">SIGN UP</a></li>
                     </ul>
                 </div>
@@ -46,18 +45,18 @@
             <div class="row">
                 <div class="col-md-6 my-3">
                     <div class="nav justify-content-center justify-content-md-start">
-                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
+{{--                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">--}}
+{{--                            <i class="fab fa-facebook-f"></i>--}}
+{{--                        </a>--}}
+{{--                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">--}}
+{{--                            <i class="fab fa-twitter"></i>--}}
+{{--                        </a>--}}
+{{--                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">--}}
+{{--                            <i class="fab fa-instagram"></i>--}}
+{{--                        </a>--}}
+{{--                        <a class="icon icon-sm icon-primary rounded-circle me-2" href="#">--}}
+{{--                            <i class="fab fa-linkedin-in"></i>--}}
+{{--                        </a>--}}
                     </div>
                 </div>
                 <div class="col-md-6 my-3 text-center text-md-end text-white-50">
